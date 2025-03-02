@@ -1,0 +1,1 @@
+The extension injects a content script that adds a button to the Power Automate flow editor. When clicked, the script expands all collapsed steps by simulating user interactions with UI elements. This improves workflow navigation and efficiency.
