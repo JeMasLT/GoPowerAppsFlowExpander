@@ -1,0 +1,2 @@
+Privacy Policy
+This extension does not collect, store, or share any user data. It operates entirely within the user's browser and does not transmit any information to external servers.
