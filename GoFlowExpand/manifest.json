@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "GOERP Flow Editor Expand",
+    "version": "1.0",
+    "description": "Adds a button to expand all sections in Power Automate flow editor.",
+    "permissions": ["scripting"],
+    "host_permissions": ["https://make.powerautomate.com/*flows/*"],
+    "content_scripts": [
+        {
+            "matches": ["https://make.powerautomate.com/*/flows/*"],
+            "js": ["content.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["goexpander.svg"],
+            "matches": ["https://make.powerautomate.com/*"]
+        }
+    ]
+}
